@@ -1,0 +1,90 @@
+/*******Navigation Bar*************************/
+/* Reset some default styles */
+.body{
+    margin: 0;
+    padding: 0;
+    background-color:#FBBEAC;
+}
+
+/* Navbar styles */
+.navbar {
+    overflow: hidden;
+    background-color: #FFE9E9; /* Set your desired background color */
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+/********************************/
+  .content {
+    /* Add some space at the top so content doesn't get hidden behind the navbar */
+    padding-top: 60px; /* Adjust this value according to your navbar height */
+  }
+  
+  /* Sticky navbar */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+/* Header styles */
+
+
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+/******************************************* About Us and Image***********************/
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background-color:#FFE9E9;
+}
+
+.content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.content h2 {
+    font-size: 40px;
+    color:red;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.image {
+    flex: 1;
+    border: 1px solid #FFE9E9;
+   
+}
+
+.image img {
+    border-radius: 40%;
+    max-width: 100%;
+    height: auto;
+}
+
+table{
+    background-color:transparent ;
+    width: 100%;
+}
